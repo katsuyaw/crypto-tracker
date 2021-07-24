@@ -11,7 +11,6 @@ import {
   ThemeProvider,
   Typography,
 } from "@material-ui/core";
-import AttachMoneyIcon from "@material-ui/icons/AttachMoney";
 import Coin from "./components/Coin";
 
 const theme = createTheme({
