@@ -83,9 +83,10 @@ const App = () => {
               id="search"
               variant="outlined"
               color="secondary"
-              placeholder="Search here"
+              placeholder="Search here "
               onChange={handleSearch}
               required
+              style={{ backgroundColor: "#303030" }}
             />
             {filteredCoins.map((coin) => {
               return (
