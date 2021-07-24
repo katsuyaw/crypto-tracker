@@ -19,8 +19,20 @@ const Coin = ({ name, image, price, rank, symbol, update }) => {
               <Typography variant="h4">{name}</Typography>
               <Typography variant="h4">({symbol})</Typography>
             </Box>
-            <Box my={5}>
-              <img src={image} alt="crypto" />
+            <Box
+              my={5}
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+            >
+              <img
+                src={image}
+                alt="crypto"
+                style={{
+                  height: "12rem",
+                  width: "auto",
+                }}
+              />
             </Box>
             <Box my={3}>
               <Typography variant="h6">${price}</Typography>
